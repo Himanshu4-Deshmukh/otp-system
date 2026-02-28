@@ -70,11 +70,11 @@ Create a `.env` file in the root folder:
 
 ```env
 MONGO_URI=mongodb://127.0.0.1:27017/otpdb
-SMS_API_URL=http://192.168.1.8:8080/send-sms
+SMS_API_URL=http://192.168.1.x:8080/send-sms
 PORT=5000
 ```
 
-Replace `192.168.1.8` with your phone’s actual IP address.
+Replace `192.168.1.x` with your phone’s actual IP address.
 
 ---
 
